@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live preview](https://divadovitch.github.io/blog-preview-card-main/){:target="_blank"}
+- Live Site URL: [Live preview](https://divadovitch.github.io/blog-preview-card-main/)
 
 ### Built with
 
@@ -45,4 +45,4 @@ Where to put the :hover and :focus for better accessibility, adding variables fo
 
 ## Author
 
-- Frontend Mentor - [Divadovitch](https://www.frontendmentor.io/profile/Divadovitch){:target="_blank"}
+- Frontend Mentor - [Divadovitch](https://www.frontendmentor.io/profile/Divadovitch)
