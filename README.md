@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live preview](https://divadovitch.github.io/blog-preview-card-main/)
 
 ### Built with
 
@@ -45,4 +45,4 @@ Where to put the :hover and :focus for better accessibility, adding variables fo
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Divadovitch)
+- Frontend Mentor - [Divadovitch](https://www.frontendmentor.io/profile/Divadovitch)
