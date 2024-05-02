@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+/* variables */
+:root{
+  /* colors */
+  --primary: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 50%);
+  --black: hsl(0, 0%, 7%);
+  /* font-weight */
+  --fw-m: 500;
+  --fw-xl: 800;
+}
+
+body{
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: var(--fw-m);
+  font-style: normal;
+  background-color: var(--primary);
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  height: 100svh;
+}
+
+.card__item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /*  items are evenly distributed in the column; first item is on the start of the column, last item on the end of the column */
+  box-sizing: border-box;
+  max-width: 325px;
+  min-height: 500px;
+  background-color: var(--white);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  border: 1px solid var(--black);
+  box-shadow: 10px 10px 0px var(--black);
+}
+/* hover and focus for card_item */
+.card__item:hover, .card__item:focus{
+  box-shadow: 20px 20px 0px var(--black);
+}
+
+.card__illustration{
+  width: 100%; /* the illustration take the whole width */
+  max-height: 200px;
+  object-fit: cover; /* the image fill the container without deformation but will be clipped */
+  border-radius: .5rem;
+}
+
+.card__tag{
+  background-color: var(--primary);
+  display: inline-block; /* can apply a height and width value to control the size of the element for his background color  */
+  padding: .3rem .7rem;
+  border-radius: .2rem;
+  font-size: .8rem;
+  font-weight: var(--fw-xl);
+}
+
+.card__date{
+  font-size: .8rem;
+  font-weight: var(--fw-m);
+}
+
+.card__title{
+  font-size: 1.25rem;
+  font-weight: var(--fw-xl);
+}
+/* hover and focus for card__title */
+.card__item:hover  .card__title, .card__item:focus .card__title{
+  color: var(--primary);
+  cursor: pointer; /* the cursor is changed in a pointer */
+}
+
+.card__description{
+font-size: .87rem;
+  font-weight: var(--fw-m);
+  line-height: 1.4rem;
+  color: var(--grey);
+}
+
+.card__author{
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+}
+
+.card__author img{
+  height: 2.2rem;
+}
+
+.card__author p{
+  font-size: .95rem;
+  font-weight: var(--fw-xl);
+}
