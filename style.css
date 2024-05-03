@@ -33,7 +33,7 @@ body{
   flex-direction: column;
   justify-content: space-between; /*  items are evenly distributed in the column; first item is on the start of the column, last item on the end of the column */
   box-sizing: border-box;
-  max-width: 325px;
+  width: clamp(200px, 100% - 40px, 380px);
   min-height: 500px;
   background-color: var(--white);
   border-radius: 1rem;
