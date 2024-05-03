@@ -72,7 +72,7 @@ body{
   font-weight: var(--fw-xl);
 }
 /* hover and focus for card__title */
-.card__item:hover  .card__title, .card__item:focus .card__title{
+.card__title:hover, .card__title:focus{
   color: var(--primary);
   cursor: pointer; /* the cursor is changed in a pointer */
 }
